@@ -1,0 +1,6 @@
+tmp
+*.class
+ 
+*.log
+
+.mtj.tmp
