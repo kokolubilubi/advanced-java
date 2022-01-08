@@ -99,7 +99,7 @@ var conn = Database.instance().getConnection();
 		try {
 			var stmt = conn.createStatement();
 			
-			var rs = stmt.executeQuery("select id, name from user ");
+			var rs = stmt.executeQuery("select id, name from user order by id");
 			while(rs.next()) {
 				
 				var id = rs.getInt("id");
